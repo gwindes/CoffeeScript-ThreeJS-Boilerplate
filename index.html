@@ -1,19 +1,24 @@
 <html>
 <head>
   <title></title>
+  <!-- Live Reload Script -->
   <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
-    ':35729/livereload.js?snipver=2"></' + 'script>')</script>
+    ':35729/livereload.js?snipver=2"></' + 'script>')</script>  
+  <!-- INCLUDE ALL LIBS HERE -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-  <!--    <script src="req_scripts.js"></script>   -->
   <script src="./js/libs/three.min.js" type="text/javascript"></script>
+  <!-- END INCLUDE -->
 </head>
 <body>
   <div id="container">Your browser doesn't support WebGL or it doesn't have it enabled. To get WebGL visit <a href="http://get.webgl.org">www.get.webgl.org</a></div>
 </body>
 </html>
-<script type="text/javascript">
-   window.app = YourApp();
+<!-- INCLUDE ALL COFFEE TO JS COMPILED SCRIPTS HERE -->
 
-   window.app = new YourApp();
+<!-- END INCLUDE -->
+<script type="text/javascript">
+   window.app = Main();
+
+   window.app = new Main();
    window.animate();
 </script>
