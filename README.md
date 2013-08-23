@@ -21,4 +21,4 @@ Include the following script in any pages you want livereload to work on:
   `<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
 ':35729/livereload.js?snipver=2"></' + 'script>')</script>`  
 Open terminal in your root WebGL/Coffeescript App directory  
-  run command livereloadx  
+  run command `livereloadx`  
