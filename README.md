@@ -1,7 +1,7 @@
 CoffeeScript-ThreeJS-Boilerplate
 ================================
 
-Simple boilerplate for Coffeescript and Threejs initially built for Ludem Dare.
+Simple boilerplate for Coffeescript and Threejs initially built for Ludum Dare.
 
 Coffeescript source files are located in src/
 
