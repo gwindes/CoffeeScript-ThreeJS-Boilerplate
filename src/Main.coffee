@@ -4,7 +4,7 @@ class Main
     @renderer = new THREE.WebGLRenderer( { antialias: true, alpha: false } )
     @renderer.setClearColor(0x9C9C9C)
 
-    @camera = new Camera({width:window.innerWidth, height:window.innerHeight})
+    @camera = new PerspectiveCamera({width:window.innerWidth, height:window.innerHeight})
 
     window.addEventListener( 'resize', @onWindowResize, false )
 
