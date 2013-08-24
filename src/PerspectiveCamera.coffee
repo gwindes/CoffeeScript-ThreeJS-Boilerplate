@@ -1,6 +1,6 @@
 class PerspectiveCamera extends THREE.PerspectiveCamera
   constructor: ({ width, height, pos } = {}) ->
-    @pos = pos
+    @pos = pos ?= {x:0, y:0, z:0}
     fov = 45
     aspect = width / height
     near = 0.1
