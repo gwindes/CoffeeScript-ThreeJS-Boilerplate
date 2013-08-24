@@ -19,7 +19,7 @@ class Character
   getType: () ->
     @type
 
-  setType: (enum) ->
-    @type = enum
+  setType: (enumType) ->
+    @type = enumType
 
 window.Character = Character
