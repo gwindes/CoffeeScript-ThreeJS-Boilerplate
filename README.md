@@ -22,3 +22,6 @@ Include the following script in any pages you want livereload to work on:
 ':35729/livereload.js?snipver=2"></' + 'script>')</script>`  
 Open terminal in your root WebGL/Coffeescript App directory  
   run command `livereloadx`  
+
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/694826e4432106c24e6b5f6f72b133b0 "githalytics.com")](http://githalytics.com/gwindes/CoffeeScript-ThreeJS-Boilerplate)
