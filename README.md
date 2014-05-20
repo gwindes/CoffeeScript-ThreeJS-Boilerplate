@@ -24,4 +24,4 @@ Open terminal in your root WebGL/Coffeescript App directory
   run command `livereloadx`  
 
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/694826e4432106c24e6b5f6f72b133b0 "githalytics.com")](http://githalytics.com/gwindes/CoffeeScript-ThreeJS-Boilerplate)
+[![Analytics](https://ga-beacon.appspot.com/UA-1357344-19/CoffeeScript-ThreeJS-Boilerplate/repo)](https://github.com/igrigorik/ga-beacon)
